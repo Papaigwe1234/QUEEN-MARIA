@@ -1,5 +1,5 @@
 var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
-  let owners = '24105114159 - 𝚃𝙾𝙶𝙴 𝙸𝙽𝚄𝙼𝙰𝙺𝙸'; // Define owners variable
+  let owners = '24160338758 - PAPA IGWE'; // Define owners variable
 
   let fkontak = {
     "key": {
@@ -16,23 +16,23 @@ var handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
     "participant": "0@s.whatsapp.net"
   };
 
-  let pp = './Assets/ANNA.jpg';
+  let pp = './Assets/MARIA.jpg';
 
-  const cat = `*_QUEEN ANNA_*
+  const cat = `*_QUEEN MARIA_*
 
-*_🔰 𝐀𝐍𝐍𝐀 𝐃𝐄𝐕 wa.me/+24105114159 %dont_contact_me%_*
+*_🔰 MARIA 𝐃𝐄𝐕 wa.me/+24160338758 %dont_contact_me%_*
 
 *---------------------*
 
 *_ᴛʜᴇ ᴍᴏᴅᴇʀᴀᴛᴏʀ_*
 *${owners}*`;
 
-  await conn.sendFile(m.chat, pp, 'https://i.ibb.co/Btk5dcq/ANNA.jpg', cat, fkontak);
+  await conn.sendFile(m.chat, pp, 'https://i.ibb.co/Btk5dcq/MARIA.jpg', cat, fkontak);
 };
 
-handler.help = ['devi', 'toge'];
+handler.help = ['devi', 'igwe'];
 handler.tags = ['info'];
-handler.command = /^(toge|devi)$/i;
+handler.command = /^(igwe|devi)$/i;
 
 export default handler;
     
