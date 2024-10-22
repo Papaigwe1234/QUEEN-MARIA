@@ -8,7 +8,6 @@ dotenv.config()
 
 const ownervb = process.env.OWNERS;
 if (!ownervb){
-   throw new Error("OWNERS env is not set");
 }
 
 const ownerlist = ownervb.split(';');
