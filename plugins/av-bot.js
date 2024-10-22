@@ -9,7 +9,7 @@ m.reply( `👋Hello ${taguser} Need Help?  Type .menu `)
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(.list|@24105114159)$/i
+handler.customPrefix = /^(.list|@24160338758)$/i
 handler.command = new RegExp
 
 export default handler
